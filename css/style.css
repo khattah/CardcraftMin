@@ -8,6 +8,8 @@ body {
 
     min-height: 100vh;
     margin: 0;
+
+    font-family: 'Poppins', sans-serif;
 }
 
 .card {
@@ -80,4 +82,55 @@ body {
 /* Pseudo-class */
 .icons a:hover {
     opacity: 0.6;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F1EA;
+    color: #293241;
+}
+
+.card {
+    background-color: #FFFFFF;
+
+    /* Margin: space around the card */
+    margin: 40px auto;
+
+    /* Padding: space inside the card */
+    padding: 30px;
+
+    /* Border: around the card */
+    border: 2px solid #3D5A80;
+    border-radius: 12px;
+
+    max-width: 400px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin: 20px 0 10px;
+}
+
+.card p {
+    margin: 10px 0 20px;
+}
+
+.card button {
+    /* Padding inside the button */
+    padding: 12px 24px;
+
+    background-color: #3D5A80;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Pseudo-class requirement */
+.card button:hover {
+    background-color: #293241;
 }
